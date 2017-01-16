@@ -1,0 +1,260 @@
+@import url(http://fonts.googleapis.com/css?family=Julius+Sans+One|Libre+Baskerville:400,400italic);
+
+html {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: 'Libre Baskerville', sans-serif;
+	color: #325050;
+	background: #fff;
+	font-size: 80%;
+}
+
+header {
+	text-align: center;
+	background: #2d6360 50% url(http://www.csszengarden.com/214/huntington.jpg) no-repeat;
+	background-attachment: fixed, fixed, fixed, scroll;
+	background-image: url(http://www.csszengarden.com/214/contours.png), url(http://www.csszengarden.com/214/noise.png), url(http://www.csszengarden.com/214/gridlines.png), url(http://www.csszengarden.com/214/huntington.jpg);
+	background-position: 0 0, 0 0, -5px -25px, 0 0, 0 50%;
+	background-repeat: repeat, repeat, repeat, no-repeat;
+	background-size: auto, auto, auto, cover;
+	color: white;
+	height: 230px;
+	padding: 20px 0 70px 0;
+}
+
+h1,h2 {
+	color: #fff;
+	font-weight: normal;
+	padding: 0 10%;
+	margin:0;
+}
+
+h1 {
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 3.2em;
+	text-transform: uppercase;
+	border-bottom: none;
+}
+
+h1::before {
+	display: inline-block;
+	position: relative;
+	background: url(http://www.csszengarden.com/214/enso.svg);
+	top:20px;
+	width: 80px;
+  	height: 80px;
+  	margin: -20px 20px 0 0;
+  	content:"";
+  	background-size: 100%;
+}
+
+h2 {
+	padding-top: 5px;
+	padding-bottom: 30px;
+	font-size: 1.6em;
+	font-style: italic;
+	color: rgba(255,255,255,0.6);
+	border-top: none;
+}
+
+h3 {
+ 	font-family: 'Julius Sans One', sans-serif;
+ 	font-size: 1.8em;
+ 	font-weight: normal;
+ 	text-transform: uppercase;
+}
+a {
+	transition: 0.25s ease-out;
+}
+
+ a:visited {
+    color: #1a5952;
+}
+
+p {
+	line-height: 2;
+	margin: 0.75em 0;
+}
+.summary, .preamble {
+	margin: 0 auto;
+	width: 80%;
+	padding-top: 2em;
+}
+
+.summary a, .summary a:visited {
+	text-decoration: none;
+	color: #809b7e;
+	font-family: 'Julius Sans One', sans-serif;
+	xborder:1px solid black;
+	display: inline-block;
+	padding: 1px 10px 1px 32px;
+	margin: -1px -10px -1px -6px;
+	border-radius: 1px;
+}
+
+.summary a:hover{
+	background: #3d8a9f;
+	color: #fff;
+}
+
+div .participation, div.benefits{
+	background-attachment: scroll, scroll, fixed;
+	background-color: rgba(138,188,159,0.5);
+	background-image: url(http://www.csszengarden.com/214/contours-opaque.png), url(http://www.csszengarden.com/214/gridlines-opaque.png), url(http://www.csszengarden.com/214/bamboo.png);
+	background-repeat: repeat, repeat, no-repeat;
+	background-size: auto, auto, cover;
+}
+
+div.participation {
+	padding: 3em 0;
+	margin-top: 3em;
+}
+
+div.benefits {
+	padding-bottom: 3em;
+ 	margin-bottom: 3em;
+}
+
+div.participation h3, div.benefits h3 {
+	margin-top: 0;
+}
+
+div.participation p, div.benefits p {
+  margin-bottom: 0;
+}
+
+
+.supporting h3, .supporting p {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.participation a, .requirements a{
+	text-decoration: none;
+	color: #0d8ba1;
+}
+
+.requirements p:last-child{
+	background: #3e5d67;
+	background-attachment: fixed, fixed, fixed, scroll;
+	background-image: url(http://www.csszengarden.com/214/contours.png), url(http://www.csszengarden.com/214/gridlines.png), url(http://www.csszengarden.com/214/noise.png), url(http://www.csszengarden.com/214/koi.jpg);
+	background-repeat: repeat, repeat, repeat, no-repeat;
+	background-size: auto, auto, auto, cover;
+	background-position: 0 0, -5px -25px, 0 0, 0 50%; 
+	
+	width: auto;
+	height: 300px;
+	padding:1em 12%;
+
+	text-align: center;
+	font-style: italic;
+	color:rgba(255,255,255,0.4);
+	font-size: 2em;
+	margin-bottom: 0;
+}
+
+.requirements p:last-child a {
+  color: rgba(255, 255, 255, 0.7);
+  font-style: normal;
+}
+
+footer {
+	clear: both;
+	color: #fff;
+  	background: #134347;
+  	text-align: center;
+  	padding: 3em 10%;
+}
+
+footer a {
+	display: inline-block;
+	padding: 40px 0 0 0;
+	margin: 0 2em;
+	color: rgba(255, 255, 255, 0.5);
+	text-decoration: none;
+	transition: color 0.25s ease-out, box-shadow 0.25s ease-out;
+}
+
+footer a:hover, footer a:focus {
+  color: rgba(255, 255, 255, 0.3);
+  text-decoration: none;
+}
+footer a:visited {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.sidebar {
+  background: #edf4f0;
+  border:1px solid red;
+}
+.sidebar h3 {
+  display: none;
+}
+.sidebar a {
+  color: #607476;
+  text-decoration: none;
+}
+
+.sidebar a:hover, .sidebar a:focus {
+	color: #49968e;
+}
+
+.sidebar ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  overflow: hidden;
+}
+
+
+
+/* intro block links -- download HTML/CSS */
+.xxintro a, .intro a:visited {
+  position: relative;
+  display: inline-block;
+  padding: 1px 10px 1px 32px;
+  margin: -1px -10px -1px -6px;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
+
+}
+.xintro a:hover, .xintro a:focus {
+  z-index: 2;
+  color: #fff;
+  background: #3d8a9f;
+  text-decoration: none;
+}
+
+.intro a::before {
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  left: 8px;
+  padding: 1px;
+  color: #a9b995;
+  background: #d9e1cd;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+
+  content: "D";
+  font-size: 16px;
+  text-indent: 0;
+
+  /* icomoon.io defaults */
+  font-family: 'verdemoderna';
+  speak: none;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+
+  -webkit-transition: all 0.25s ease-out;
+  -moz-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+}
